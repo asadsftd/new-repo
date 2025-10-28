@@ -130,6 +130,46 @@ main{
     text-align: center;
     margin-top: 30px;
 }
+/* Footer styles */
+footer{
+    background-color:bisque;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+.footer-content{
+    margin: 0px 120px;
+    position: relative;
+    top: 20px;
+}
+.footer-container{
+    display: flex;
+}
+.footer-dspt{
+    max-width: 60%;
+}
+.footer-content-two{
+    position: relative;
+    right: 100px;
+    top: 20px;
+}
+input{
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 20px;
+    width: 100%;
+    text-indent: 20px;
+}
+textarea{
+    margin-top: 20px ;
+    border: none;
+    text-indent: 20px;
+}
+.footer-button{
+    margin-top: 20px;
+}
 /* Responsive */
 @media screen and (max-width:576px) {
     .header{
@@ -240,5 +280,38 @@ main{
 }
 .sub-title{
     font-size: 18px;
+}
+
+.footer-container{
+    flex-direction: column-reverse;
+}
+.footer-content{
+    margin: 0px;
+}
+.footer-content-two{
+    position: relative;
+    left: 40px;
+}
+input{
+    width: 70%;
+}
+textarea{
+    width: 70%;
+}
+.footer-title,.footer-text{
+    font-size: 28px;
+}
+.footer-icon{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.footer-text{
+    position: relative;
+    left: 40px;
+}
+.footer-dspt{
+    position: relative;
+    right: 40px;
 }
 }
