@@ -83,10 +83,34 @@ main{
     background-color: white;
     padding: 50px 50px;
 }
+/* what ido */
+.section-title, .section-dspt{
+    text-align: center;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.section-dstp{
+    max-width: 800px;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 300;
+}
+.do-container{
+    display: flex;
+    margin-top: 60px;
+    gap: 30px;
+}
+.card-1{
+    background-color: beige;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px black;
+}
 /* Responsive */
 @media screen and (max-width:576px) {
     .header{
-        height: auto;
+        height:1000px;
     }
     .hero{
         flex-direction: column;
@@ -102,14 +126,24 @@ main{
         font-size: 18px;
         padding: 10px 20px;
     }
-    h1{
-        font-size: 50px;
+    h1,h4{
+        font-size: 30px;
         font-weight: bold;
+        position: relative;
+        left: 30px;
+    }
+    .flex{
+        position: relative;
+        left: 30px;
+    }
+    p{
+        max-width: 80%;
+        margin: auto;
     }
     .img{
-     width: 100%;
-     position: relative;
-     right: 10px;
+     width: 90%;
+     margin: auto;
+    
     }
     .banner-container{
         flex-direction: column-reverse;
@@ -122,6 +156,10 @@ main{
     .about{
         padding: 20px 20px;
         margin-top: 80px;
+    }
+    .about-dspt{
+        max-width: 90%;
+        margin: auto;
     }
     .about-section{
         padding:5px 5px;
@@ -137,4 +175,15 @@ main{
     .banner{
     margin: 0px ;
 }
+/* do container */
+ .do-container{
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+ }
+ .section-dstp{
+    max-width: 80%;
+    margin: auto;
+ }
 }
